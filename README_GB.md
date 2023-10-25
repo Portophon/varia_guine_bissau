@@ -61,7 +61,7 @@ ggplot(df, aes(x = place_simple, y = v_b,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = v_b, 
@@ -79,7 +79,7 @@ ggplot(df, aes(x = school, y = v_b,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = v_b, 
@@ -105,7 +105,7 @@ ggplot(df, aes(x = mother_tongue, y = v_b,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-3-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-3-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = v_b, label = ID)) +
@@ -122,7 +122,7 @@ ggplot(df, aes(x = age, y = v_b, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-3-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-3-4.png)<!-- -->
 
 ## 2.2 z_s
 
@@ -142,7 +142,7 @@ ggplot(df, aes(x = place_simple, y = z_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = z_s, 
@@ -160,7 +160,7 @@ ggplot(df, aes(x = school, y = z_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = z_s, 
@@ -186,7 +186,7 @@ ggplot(df, aes(x = mother_tongue, y = z_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-4-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-4-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = z_s, label = ID)) +
@@ -203,7 +203,7 @@ ggplot(df, aes(x = age, y = z_s, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-4-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-4-4.png)<!-- -->
 
 ## 2.3 ʒ_dʒ
 
@@ -223,7 +223,7 @@ ggplot(df, aes(x = place_simple, y = palfricvoz_palafrvoz,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = palfricvoz_palafrvoz, 
@@ -241,7 +241,7 @@ ggplot(df, aes(x = school, y = palfricvoz_palafrvoz,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = palfricvoz_palafrvoz, 
@@ -267,7 +267,7 @@ ggplot(df, aes(x = mother_tongue, y = palfricvoz_palafrvoz,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-5-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-5-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = palfricvoz_palafrvoz, label = ID)) +
@@ -284,7 +284,7 @@ ggplot(df, aes(x = age, y = palfricvoz_palafrvoz, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-5-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-5-4.png)<!-- -->
 
 ## 2.4 ʃ_tʃ
 
@@ -304,7 +304,7 @@ ggplot(df, aes(x = place_simple, y = palfricsur_palafrsur,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = palfricsur_palafrsur, 
@@ -322,7 +322,7 @@ ggplot(df, aes(x = school, y = palfricsur_palafrsur,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-6-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-6-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = palfricsur_palafrsur, 
@@ -348,7 +348,7 @@ ggplot(df, aes(x = mother_tongue, y = palfricsur_palafrsur,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-6-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-6-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = palfricsur_palafrsur, label = ID)) +
@@ -365,7 +365,7 @@ ggplot(df, aes(x = age, y = palfricsur_palafrsur, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-6-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-6-4.png)<!-- -->
 
 ## 2.5 λ_dʒ
 
@@ -385,7 +385,7 @@ ggplot(df, aes(x = place_simple, y = pallat_palafrvoz,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = pallat_palafrvoz, 
@@ -403,7 +403,7 @@ ggplot(df, aes(x = school, y = pallat_palafrvoz,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = pallat_palafrvoz, 
@@ -429,7 +429,7 @@ ggplot(df, aes(x = mother_tongue, y = pallat_palafrvoz,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = pallat_palafrvoz, label = ID)) +
@@ -446,7 +446,7 @@ ggplot(df, aes(x = age, y = pallat_palafrvoz, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
 
 # 3 Coda
 
@@ -468,7 +468,7 @@ ggplot(df, aes(x = place_simple, y = palfricvoz_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = palfricvoz_s, 
@@ -486,7 +486,7 @@ ggplot(df, aes(x = school, y = palfricvoz_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-8-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-8-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = palfricvoz_s, 
@@ -512,7 +512,7 @@ ggplot(df, aes(x = mother_tongue, y = palfricvoz_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-8-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-8-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = palfricvoz_s, label = ID)) +
@@ -529,7 +529,7 @@ ggplot(df, aes(x = age, y = palfricvoz_s, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-8-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-8-4.png)<!-- -->
 
 ## 3.2 ʒ_Ø
 
@@ -549,7 +549,7 @@ ggplot(df, aes(x = place_simple, y = palfricvoz_zero,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = palfricvoz_zero, 
@@ -567,7 +567,7 @@ ggplot(df, aes(x = school, y = palfricvoz_zero,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = palfricvoz_zero, 
@@ -593,7 +593,7 @@ ggplot(df, aes(x = mother_tongue, y = palfricvoz_zero,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = palfricvoz_zero, label = ID)) +
@@ -610,7 +610,7 @@ ggplot(df, aes(x = age, y = palfricvoz_zero, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-9-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-9-4.png)<!-- -->
 
 ## 3.3 ʃ_s
 
@@ -630,7 +630,7 @@ ggplot(df, aes(x = place_simple, y = palfricsur_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = school, y = palfricsur_s, 
@@ -648,7 +648,7 @@ ggplot(df, aes(x = school, y = palfricsur_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-10-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = palfricsur_s, 
@@ -674,7 +674,7 @@ ggplot(df, aes(x = mother_tongue, y = palfricsur_s,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-10-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-10-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = palfricsur_s, label = ID)) +
@@ -691,7 +691,7 @@ ggplot(df, aes(x = age, y = palfricsur_s, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-10-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-10-4.png)<!-- -->
 
 # 4 Global results (Onset + coda)
 
@@ -711,7 +711,7 @@ ggplot(df, aes(x = school, y = global,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = place_simple, y = global, 
@@ -729,7 +729,7 @@ ggplot(df, aes(x = place_simple, y = global,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = sex, y = global, 
@@ -747,7 +747,7 @@ ggplot(df, aes(x = sex, y = global,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = variant, y = global, 
@@ -765,7 +765,7 @@ ggplot(df, aes(x = variant, y = global,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-4.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = global, 
@@ -791,7 +791,7 @@ ggplot(df, aes(x = mother_tongue, y = global,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-5.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-5.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = kryol_acquisition, y = global, 
@@ -813,7 +813,7 @@ ggplot(df, aes(x = kryol_acquisition, y = global,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-6.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-6.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = global, label = ID)) +
@@ -830,7 +830,7 @@ ggplot(df, aes(x = age, y = global, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-7.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-7.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = global, label = ID, color=sex)) +
@@ -847,7 +847,7 @@ ggplot(df, aes(x = age, y = global, label = ID, color=sex)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-11-8.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-11-8.png)<!-- -->
 
 # 5 Partial results (onset only)
 
@@ -867,7 +867,7 @@ ggplot(df, aes(x = school, y = partial,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = place_simple, y = partial, 
@@ -885,7 +885,7 @@ ggplot(df, aes(x = place_simple, y = partial,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-2.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-2.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = sex, y = partial, 
@@ -903,7 +903,7 @@ ggplot(df, aes(x = sex, y = partial,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-3.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-3.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = variant, y = partial, 
@@ -921,7 +921,7 @@ ggplot(df, aes(x = variant, y = partial,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-4.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-4.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = mother_tongue, y = partial, 
@@ -947,7 +947,7 @@ ggplot(df, aes(x = mother_tongue, y = partial,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-5.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-5.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = kryol_acquisition, y = partial, 
@@ -969,7 +969,7 @@ ggplot(df, aes(x = kryol_acquisition, y = partial,
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-6.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-6.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = partial, label = ID)) +
@@ -986,7 +986,7 @@ ggplot(df, aes(x = age, y = partial, label = ID)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-7.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-7.png)<!-- -->
 
 ``` r
 ggplot(df, aes(x = age, y = partial, label = ID, color=sex)) +
@@ -1003,4 +1003,4 @@ ggplot(df, aes(x = age, y = partial, label = ID, color=sex)) +
     ## ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
     ##   variable into a factor?
 
-![](for_Ronaldo_files/figure-gfm/unnamed-chunk-12-8.png)<!-- -->
+![](README_GB_files/figure-gfm/unnamed-chunk-12-8.png)<!-- -->
