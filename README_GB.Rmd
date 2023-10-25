@@ -1,0 +1,520 @@
+---
+title: "Supplementary materials for: Internal variation in Guinea-Bissau Kriyol: phonological and sociolinguistic aspects"
+author: "Ronaldo Mendes and Carlos Silva" 
+date: "(`r format(Sys.time(), '%d %B, %Y')`)"
+output:
+  github_document:
+    toc: true
+    number_sections: true
+#bibliography: 'bibliography.bib'
+---
+
+
+#Packages
+
+```{r}
+library(tidyverse)
+
+```
+
+# Data
+
+```{r}
+df <- read.csv("GuineaBissau_Ronaldo_full.csv")
+```
+
+# Onset
+
+## v_b
+
+
+```{r}
+ggplot(df, aes(x = place_simple, y = v_b, 
+                             fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = v_b, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = v_b, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = v_b, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+```
+
+## z_s
+
+```{r}
+
+ggplot(df, aes(x = place_simple, y = z_s, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = z_s, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = z_s, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = z_s, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+```
+
+## ʒ_dʒ
+
+```{r}
+
+
+ggplot(df, aes(x = place_simple, y = palfricvoz_palafrvoz, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+
+ggplot(df, aes(x = school, y = palfricvoz_palafrvoz, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = palfricvoz_palafrvoz, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = palfricvoz_palafrvoz, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+```
+
+## ʃ_tʃ
+
+```{r}
+
+ggplot(df, aes(x = place_simple, y = palfricsur_palafrsur, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = palfricsur_palafrsur, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = palfricsur_palafrsur, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = palfricsur_palafrsur, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
+
+
+## λ_dʒ
+
+```{r}
+
+ggplot(df, aes(x = place_simple, y = pallat_palafrvoz, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = pallat_palafrvoz, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = pallat_palafrvoz, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = pallat_palafrvoz, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
+
+
+# Coda
+
+## ʒ_s
+
+```{r}
+
+ggplot(df, aes(x = place_simple, y = palfricvoz_s, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = palfricvoz_s, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = palfricvoz_s, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = palfricvoz_s, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
+
+## ʒ_Ø
+
+```{r}
+ggplot(df, aes(x = place_simple, y = palfricvoz_zero, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = palfricvoz_zero, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = palfricvoz_zero, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = palfricvoz_zero, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
+
+
+## ʃ_s
+
+```{r}
+ggplot(df, aes(x = place_simple, y = palfricsur_s, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+
+ggplot(df, aes(x = school, y = palfricsur_s, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = mother_tongue, y = palfricsur_s, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+ggplot(df, aes(x = age, y = palfricsur_s, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
+
+
+
+# Global results (Onset + coda)
+
+```{r}
+
+ggplot(df, aes(x = school, y = global, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = place_simple, y = global, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+ggplot(df, aes(x = sex, y = global, 
+               fill = sex)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Sex")
+
+ggplot(df, aes(x = variant, y = global, 
+               fill = variant)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Variant")
+
+ggplot(df, aes(x = mother_tongue, y = global, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+
+ggplot(df, aes(x = kryol_acquisition, y = global, 
+               fill = kryol_acquisition)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+ggplot(df, aes(x = age, y = global, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+ggplot(df, aes(x = age, y = global, label = ID, color=sex)) +
+ geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
+
+# Partial results (onset only)
+
+```{r}
+
+ggplot(df, aes(x = school, y = partial, 
+               fill = school)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Degree of school")
+
+ggplot(df, aes(x = place_simple, y = partial, 
+               fill = place_simple)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+ggplot(df, aes(x = sex, y = partial, 
+               fill = sex)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Sex")
+
+ggplot(df, aes(x = variant, y = partial, 
+               fill = variant)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Variant")
+
+ggplot(df, aes(x = mother_tongue, y = partial, 
+               fill = mother_tongue)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Mother tongue")
+
+
+ggplot(df, aes(x = kryol_acquisition, y = partial, 
+               fill = kryol_acquisition)) +
+  geom_smooth(method = "lm") +
+  geom_violin() +
+  geom_dotplot(binaxis = "y",
+               stackdir = "center",
+               dotsize = 0.5)  +
+  theme(legend.position="none") +
+  labs(y = "Kryol faithfulnes score", x = "Region")
+
+ggplot(df, aes(x = age, y = partial, label = ID)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+ggplot(df, aes(x = age, y = partial, label = ID, color=sex)) +
+  geom_smooth(method = "lm") +
+  geom_point()  +
+  geom_text(aes(label=ID), hjust=3, vjust=0)
+
+```
