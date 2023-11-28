@@ -2,7 +2,7 @@ Supplementary materials for: Internal variation in Guinea-Bissau Kriyol:
 phonological and sociolinguistic aspects
 ================
 Ronaldo Mendes and Carlos Silva
-(30 outubro, 2023)
+(28 novembro, 2023)
 
 - [1 Data](#1-data)
 - [2 Onset](#2-onset)
@@ -808,7 +808,6 @@ ggplot(df, aes(x = kryol_acquisition, y = global,
     ## `geom_smooth()` using formula = 'y ~ x'
 
     ## Warning: Groups with fewer than two data points have been dropped.
-    ## Groups with fewer than two data points have been dropped.
 
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
@@ -964,7 +963,6 @@ ggplot(df, aes(x = kryol_acquisition, y = partial,
     ## `geom_smooth()` using formula = 'y ~ x'
 
     ## Warning: Groups with fewer than two data points have been dropped.
-    ## Groups with fewer than two data points have been dropped.
 
     ## Bin width defaults to 1/30 of the range of the data. Pick better value with
     ## `binwidth`.
